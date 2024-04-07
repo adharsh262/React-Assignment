@@ -1,0 +1,148 @@
+.learnhead {
+    border-bottom: 4px solid #000066;
+    width:300px;
+    font-size: x-small;
+    
+}
+.LearnSection {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.palcementpara {
+    color: #9494b8;
+    text-align: start;
+    margin-top: 0;
+}
+.placememthead {
+    color: #000000;
+    text-align: start;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.paraContainerPlacememt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.cardLearn {
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #e6f2ff;
+    border-radius: 4px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.cardContainerLearn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.headheadwerlearn {
+    background-color: #000066;
+    color: #ffffff;
+    margin-top: 0;
+    padding: 10px;
+}
+.learnfooter {
+    background-color: #000066;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding: 10px;
+    font-weight: 700;
+}
+.listitemLearn {
+    text-align: start;
+}
+
+.unorderedListLearn2 {
+    list-style-type: disc;
+}
+
+@media(min-width:768px) {
+    .learnhead {
+        border-bottom: 4px solid #000066;
+        width:300px;
+        font-size: x-small;
+        
+    }
+    .LearnSection {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        
+    }
+    .palcementpara {
+        color: #9494b8;
+        text-align: start;
+        margin-top: 0;
+    }
+    .placememthead {
+        color: #000000;
+        text-align: start;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .paraContainerPlacememt {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        margin-top: 20px;
+    }
+    .cardLearn {
+        border: 0;
+        margin: 20px;
+        background-color: #e6f2ff;
+        border-radius: 4px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+    .cardContainerLearn {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .headheadwerlearn {
+        background-color: #000066;
+        color: #ffffff;
+        margin-top: 0;
+        padding: 10px;
+    }
+    .learnfooter {
+        background-color: #000066;
+        color: #ffffff;
+        margin-bottom: 0;
+        padding: 10px;
+        font-weight: 700;
+    }
+    .listitemLearn {
+        text-align: start;
+    }
+    .unorderedListLearn2 {
+        list-style-type: disc;
+    }
+    
+}

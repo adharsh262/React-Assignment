@@ -1,0 +1,75 @@
+.nav-bgContainer {
+    background-color: #000066;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hamburgerIcon {
+    width: 40px;
+    margin-right: 5px;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+}
+.unorderedHeardwer {
+    display: none;
+}
+.LoginImage {
+    width: 20px;
+    margin-right: 3px;
+}
+.oneWhoLogin {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 10px;
+    font-weight: 700;
+    border:  0 solid;
+}
+
+
+@media(min-width:768px) {
+    .nav-bgContainer {
+        background-color: #000066;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hamburgerIcon {
+        width: 40px;
+        margin-right: 5px;
+    }
+    .navBar {
+        display: flex;
+        align-items: center;
+    }
+    .unorderedHeardwer {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    .LoginImage {
+        width: 20px;
+        margin-right: 3px;
+    }
+    .oneWhoLogin {
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-radius: 10px;
+        font-weight: 700;
+        border:  0 solid;
+    }
+    .headerList {
+        margin-right: 25px;
+    }
+}
